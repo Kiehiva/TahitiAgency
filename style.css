@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #444;
+    margin-top: 32px;
+}
+
+h2 {
+    color: #444;
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #444;
+}
+
+h4 {
+    font-size: 24px;
+    color: #444;
+}
+
+p {
+    line-height: 20px;
+    color: #777;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+small {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.red {
+    color: red;
+}
+
+.wrapper {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* HEADER */
+header {
+    height: 120px;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-top: 45px;
+}
+
+header nav>ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+header nav>ul li {
+    margin: 0 0.5rem;
+}
+
+header nav>ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 0px solid #444;
+}
+
+header nav>ul li a:hover {
+    border-bottom: 2px solid #444;
+}
+
+
+/* MAIN IMAGE */
+#main-image {
+    height: 580px;
+    background: url('images/main.jpeg') center;   
+}
+
+#main-image h2 {
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin: 20px;
+}
+
+.button-1 {
+    width: 120px;
+    height: 50px;
+    display: block;
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid red;
+    transition: color 0.3s, background 0.3s;
+}
+
+.button-1:hover {
+    background: #fff;
+    color: #444;
+}
+
+/* STEPS */
+#steps ul {
+    display: flex;
+    list-style: none;
+    margin: 80px 0;
+}
+
+#steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p {
+    margin-bottom: 20px;
+}
+
+#steps ul li {
+    padding-top: 130px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+#step-1 {
+    background: url('images/steps-icon-1.png') no-repeat top center;
+}
+
+#step-2 {
+    background: url('images/steps-icon-2.png') no-repeat top center;
+}
+
+#step-3 {
+    background: url('images/steps-icon-3.png') no-repeat top center;
+}
+
+/* POSSIBILITIES */
+#possibilities {
+    background-color: #efefef;
+    padding: 60px 0;
+} 
+
+#possibilities .wrapper {
+    display: flex;
+}
+
+#possibilities article {
+    width: 460px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+#possibilities article:first-child {
+    margin-right: 20px;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.90);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#possibilities p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-2 {
+    color: #fff;
+    background: red;
+    padding: 6px 20px;
+    border-radius: 3px;
+    border: 1px solid red;
+    transition: color 0.5s, background 0.5s;
+}
+
+.button-2:hover {
+    color: #444;
+    background: #fff;
+}
+
+/* CONTACT */
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+}
+
+form {
+    margin: 60px 0 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type='text'] {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+.button-3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    transition: color 0.5s, background 0.5s;
+}
+
+.button-3:hover {
+    color: #444;
+    background-color: #fff;
+}
+
+/* FOOTER */
+footer {
+    height: 260px;
+    background-color: #444;
+}
+
+footer h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;   
+}
